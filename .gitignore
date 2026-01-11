@@ -1,2 +1,3 @@
 # Ignore EEGFormer pretrained weights
 pretrained_weights/
+data/
