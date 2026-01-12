@@ -1,0 +1,55 @@
+01/11/2026 22:56:25 - INFO - __main__ - Loading checkpoints from experiments_recons/vae_humanml/vae_humanml.ckpt
+01/11/2026 22:56:25 - INFO - __main__ - Is VAE: True
+01/11/2026 22:56:25 - INFO - __main__ - Is MLD: False
+01/11/2026 22:56:25 - INFO - __main__ - Is LCM: False
+01/11/2026 22:56:25 - INFO - __main__ - Is Controlnet: False
+01/11/2026 22:56:26 - INFO - mld.models.modeltype.vae - latent_dim: [16, 32]
+01/11/2026 22:56:26 - INFO - mld.models.modeltype.vae - rec_feats_ratio: 1.0, rec_joints_ratio: 1.0, rec_velocity_ratio: 0.0, kl_ratio: 0.0001
+01/11/2026 22:56:26 - INFO - mld.models.modeltype.vae - rec_feats_loss: l1_smooth, rec_joints_loss: l1_smooth, rec_velocity_loss: l1_smooth
+01/11/2026 22:56:26 - INFO - mld.models.modeltype.vae - mask_loss: True
+01/11/2026 22:56:26 - INFO - mld.models.modeltype.vae - VAE Encoder: 7.634M
+01/11/2026 22:56:26 - INFO - mld.models.modeltype.vae - VAE Decoder: 10.007M
+01/11/2026 22:56:26 - INFO - __main__ - <All keys matched successfully>
+01/11/2026 22:56:26 - INFO - mld.data.humanml.dataset - Reading 5 motions from ./datasets/humanml3d/test.txt.
+01/11/2026 22:56:26 - INFO - mld.data.humanml.dataset - Total 5 motions are used.
+01/11/2026 22:56:26 - INFO - mld.data.humanml.dataset - 0 motion sequences not within the length range of [40, 200) are filtered out.
+01/11/2026 22:56:27 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_0_length_132_rep_0.pkl
+01/11/2026 22:56:27 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:27 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_0_length_132_rep_0.mp4
+01/11/2026 22:56:33 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_0_length_132_rep_0_ref.pkl
+01/11/2026 22:56:33 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:33 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_0_length_132_rep_0_ref.mp4
+01/11/2026 22:56:37 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_1_length_80_rep_0.pkl
+01/11/2026 22:56:37 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:37 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_1_length_80_rep_0.mp4
+01/11/2026 22:56:40 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_1_length_80_rep_0_ref.pkl
+01/11/2026 22:56:40 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:40 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_1_length_80_rep_0_ref.mp4
+01/11/2026 22:56:42 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_2_length_60_rep_0.pkl
+01/11/2026 22:56:42 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:42 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_2_length_60_rep_0.mp4
+01/11/2026 22:56:45 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_2_length_60_rep_0_ref.pkl
+01/11/2026 22:56:45 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:45 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_2_length_60_rep_0_ref.mp4
+01/11/2026 22:56:47 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_3_length_60_rep_0.pkl
+01/11/2026 22:56:47 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:47 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_3_length_60_rep_0.mp4
+01/11/2026 22:56:49 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_3_length_60_rep_0_ref.pkl
+01/11/2026 22:56:49 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:49 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_3_length_60_rep_0_ref.mp4
+01/11/2026 22:56:51 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_4_length_196_rep_0.pkl
+01/11/2026 22:56:51 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:51 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_4_length_196_rep_0.mp4
+01/11/2026 22:56:56 - INFO - __main__ - Motions are generated here:
+./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_4_length_196_rep_0_ref.pkl
+01/11/2026 22:56:56 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 22:56:56 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_recons_test/vae_humanml/demo_2026-01-11T22-56-25/samples/batch_id_0_sample_id_4_length_196_rep_0_ref.mp4

@@ -1,0 +1,36 @@
+01/12/2026 13:34:40 - INFO - __main__ - Loading checkpoints from experiments_t2m/motionlcm_humanml/motionlcm_humanml.ckpt
+01/12/2026 13:34:40 - INFO - __main__ - Is VAE: True
+01/12/2026 13:34:40 - INFO - __main__ - Is MLD: True
+01/12/2026 13:34:40 - INFO - __main__ - Is LCM: True
+01/12/2026 13:34:40 - INFO - __main__ - Is Controlnet: False
+01/12/2026 13:34:40 - INFO - mld.models.modeltype.mld - Guidance Scale set as 8.0
+01/12/2026 13:34:41 - INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+01/12/2026 13:34:42 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./deps/sentence-t5-large
+01/12/2026 13:34:44 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+01/12/2026 13:34:46 - INFO - mld.models.modeltype.mld - vae_scale_factor: 1.0
+01/12/2026 13:34:46 - INFO - mld.models.modeltype.mld - prediction_type: epsilon
+01/12/2026 13:34:46 - INFO - mld.models.modeltype.mld - guidance_scale: 8.0
+01/12/2026 13:34:46 - INFO - mld.models.modeltype.mld - guidance_uncondp: 0.0
+01/12/2026 13:34:51 - INFO - mld.models.modeltype.mld - VAE Encoder: 7.634M
+01/12/2026 13:34:51 - INFO - mld.models.modeltype.mld - VAE Decoder: 10.007M
+01/12/2026 13:34:51 - INFO - mld.models.modeltype.mld - Denoiser: 8.434M
+01/12/2026 13:34:51 - INFO - __main__ - <All keys matched successfully>
+01/12/2026 13:34:51 - INFO - __main__ - Loaded EEG encoder from experiments_eeg/eeg2textemb.ckpt
+01/12/2026 13:34:51 - INFO - __main__ - 120: a person walks forward steadily
+01/12/2026 13:34:51 - INFO - __main__ - 120: a person walks forward steadily
+01/12/2026 13:34:51 - INFO - __main__ - 120: a person walks forward steadily
+01/12/2026 13:34:51 - INFO - __main__ - Using EEG conditioning. Paths: ['data_eeg/neural_data_label2_1.npy', 'data_eeg/neural_data_label2_1.npy', 'data_eeg/neural_data_label2_1.npy']
+01/12/2026 13:34:51 - INFO - __main__ - EEG emb shape: (3, 1, 768)
+01/12/2026 13:34:52 - INFO - mld.models.modeltype.mld - [EEG]!!!Now you are using eeg embedding!!!
+01/12/2026 13:34:52 - INFO - __main__ - Motions are generated here:
+./experiments_t2m_test/motionlcm_humanml/demo_2026-01-12T13-34-39/samples/sample_id_0_length_120_rep_0.pkl
+01/12/2026 13:34:52 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/12/2026 13:34:52 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_t2m_test/motionlcm_humanml/demo_2026-01-12T13-34-39/samples/sample_id_0_length_120_rep_0.mp4
+01/12/2026 13:34:58 - INFO - __main__ - Motions are generated here:
+./experiments_t2m_test/motionlcm_humanml/demo_2026-01-12T13-34-39/samples/sample_id_1_length_120_rep_0.pkl
+01/12/2026 13:34:58 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/12/2026 13:34:58 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_t2m_test/motionlcm_humanml/demo_2026-01-12T13-34-39/samples/sample_id_1_length_120_rep_0.mp4
+01/12/2026 13:35:03 - INFO - __main__ - Motions are generated here:
+./experiments_t2m_test/motionlcm_humanml/demo_2026-01-12T13-34-39/samples/sample_id_2_length_120_rep_0.pkl
+01/12/2026 13:35:03 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/12/2026 13:35:03 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_t2m_test/motionlcm_humanml/demo_2026-01-12T13-34-39/samples/sample_id_2_length_120_rep_0.mp4

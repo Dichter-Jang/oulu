@@ -1,0 +1,9 @@
+**/*.pyc
+.idea/
+__pycache__/
+
+deps/
+datasets/
+experiments_t2m/
+experiments_control/
+experiments_recons/

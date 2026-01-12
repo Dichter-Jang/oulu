@@ -1,0 +1,18 @@
+01/12/2026 12:52:27 - INFO - __main__ - Loading checkpoints from experiments_t2m/motionlcm_humanml/motionlcm_humanml.ckpt
+01/12/2026 12:52:27 - INFO - __main__ - Is VAE: True
+01/12/2026 12:52:27 - INFO - __main__ - Is MLD: True
+01/12/2026 12:52:27 - INFO - __main__ - Is LCM: True
+01/12/2026 12:52:27 - INFO - __main__ - Is Controlnet: False
+01/12/2026 12:52:27 - INFO - mld.models.modeltype.mld - Guidance Scale set as 8.0
+01/12/2026 12:52:29 - INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+01/12/2026 12:52:31 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./deps/sentence-t5-large
+01/12/2026 12:52:39 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device: cpu
+01/12/2026 12:52:44 - INFO - mld.models.modeltype.mld - vae_scale_factor: 1.0
+01/12/2026 12:52:44 - INFO - mld.models.modeltype.mld - prediction_type: epsilon
+01/12/2026 12:52:44 - INFO - mld.models.modeltype.mld - guidance_scale: 8.0
+01/12/2026 12:52:44 - INFO - mld.models.modeltype.mld - guidance_uncondp: 0.0
+01/12/2026 12:52:50 - INFO - mld.models.modeltype.mld - VAE Encoder: 7.634M
+01/12/2026 12:52:50 - INFO - mld.models.modeltype.mld - VAE Decoder: 10.007M
+01/12/2026 12:52:50 - INFO - mld.models.modeltype.mld - Denoiser: 8.434M
+01/12/2026 12:52:50 - INFO - __main__ - <All keys matched successfully>
+01/12/2026 12:52:50 - INFO - __main__ - 120: a person walks forward steadily

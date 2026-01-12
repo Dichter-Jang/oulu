@@ -1,0 +1,32 @@
+01/11/2026 23:00:23 - INFO - __main__ - Loading checkpoints from experiments_t2m/motionlcm_humanml/motionlcm_humanml.ckpt
+01/11/2026 23:00:23 - INFO - __main__ - Is VAE: True
+01/11/2026 23:00:23 - INFO - __main__ - Is MLD: True
+01/11/2026 23:00:23 - INFO - __main__ - Is LCM: True
+01/11/2026 23:00:23 - INFO - __main__ - Is Controlnet: False
+01/11/2026 23:00:23 - INFO - mld.models.modeltype.mld - Guidance Scale set as 8.0
+01/11/2026 23:00:24 - INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+01/11/2026 23:00:24 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./deps/sentence-t5-large
+01/11/2026 23:00:26 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device: cuda
+01/11/2026 23:00:28 - INFO - mld.models.modeltype.mld - vae_scale_factor: 1.0
+01/11/2026 23:00:28 - INFO - mld.models.modeltype.mld - prediction_type: epsilon
+01/11/2026 23:00:28 - INFO - mld.models.modeltype.mld - guidance_scale: 8.0
+01/11/2026 23:00:28 - INFO - mld.models.modeltype.mld - guidance_uncondp: 0.0
+01/11/2026 23:00:32 - INFO - mld.models.modeltype.mld - VAE Encoder: 7.634M
+01/11/2026 23:00:32 - INFO - mld.models.modeltype.mld - VAE Decoder: 10.007M
+01/11/2026 23:00:32 - INFO - mld.models.modeltype.mld - Denoiser: 8.434M
+01/11/2026 23:00:33 - INFO - __main__ - <All keys matched successfully>
+01/11/2026 23:00:33 - INFO - __main__ - 196: the man walks in a counterclockwise circle.
+01/11/2026 23:00:33 - INFO - __main__ - 100: a person walks backward slowly.
+01/11/2026 23:00:33 - INFO - __main__ - 56: a person does a jump.
+01/11/2026 23:00:33 - INFO - __main__ - Motions are generated here:
+./experiments_t2m_test/motionlcm_humanml/demo_2026-01-11T23-00-23/samples/sample_id_0_length_196_rep_0.pkl
+01/11/2026 23:00:33 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 23:00:33 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_t2m_test/motionlcm_humanml/demo_2026-01-11T23-00-23/samples/sample_id_0_length_196_rep_0.mp4
+01/11/2026 23:00:38 - INFO - __main__ - Motions are generated here:
+./experiments_t2m_test/motionlcm_humanml/demo_2026-01-11T23-00-23/samples/sample_id_1_length_100_rep_0.pkl
+01/11/2026 23:00:38 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 23:00:38 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_t2m_test/motionlcm_humanml/demo_2026-01-11T23-00-23/samples/sample_id_1_length_100_rep_0.mp4
+01/11/2026 23:00:42 - INFO - __main__ - Motions are generated here:
+./experiments_t2m_test/motionlcm_humanml/demo_2026-01-11T23-00-23/samples/sample_id_2_length_56_rep_0.pkl
+01/11/2026 23:00:42 - INFO - matplotlib.animation - Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+01/11/2026 23:00:42 - INFO - matplotlib.animation - MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 300x300 -pix_fmt rgba -framerate 20.0 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y ./experiments_t2m_test/motionlcm_humanml/demo_2026-01-11T23-00-23/samples/sample_id_2_length_56_rep_0.mp4
