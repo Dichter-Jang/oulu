@@ -333,7 +333,8 @@ class EEGformer(nn.Module):
         x = self.ttm(x)
         x = self.cnndecoder(x)
 
-        return torch.softmax(x, dim=1)
+        # return torch.softmax(x, dim=1)
+        return x
 
     # CE - uses one hot encoded label or similar(such as multi class probability label)
     def eegloss(self, xf, label, L1_reg_const):  # CE Loss with L1 regularization
