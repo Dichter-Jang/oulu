@@ -1,8 +1,8 @@
 ### Task 1. Processing the EEG signal with foundation models with existing data.
 
 #### data:
-1. data\seed_eeg: raw EEG data for 1 subject from SEED dataset
-2. data\tuh_eeg: EEG data from The TUH Abnormal EEG Corpus (TUAB): A corpus of EEGs that have been annotated as normal or abnormal.
+1. data\seed_eeg: raw EEG data for 1 subject from SEED dataset (https://bcmi.sjtu.edu.cn/home/seed/)
+2. data\tuh_eeg: EEG data from The TUH Abnormal EEG Corpus (TUAB): A corpus of EEGs that have been annotated as normal or abnormal. (https://isip.piconepress.com/projects/tuh_eeg/)
 3. data\synthetic_eeg: EEG data generate by Gaussion Process Joint Model (https://www.pnas.org/doi/10.1073/pnas.1912342117). 3 labels' EEG date.
 
 #### notebooks:
