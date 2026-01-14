@@ -1,4 +1,8 @@
-# Ignore EEGFormer pretrained weights
+# Ignore pretrained weights
 pretrained_weights/
 data/seed_eeg/9_1.cnt
-data/
+data/tuh_eeg/v3.0.1
+*.pth
+*.pt
+*.ckpt
+*.bin
