@@ -1,8 +1,16 @@
-# Ignore pretrained weights
-pretrained_weights/
-data/seed_eeg/9_1.cnt
-data/tuh_eeg/v3.0.1
-*.pth
+# model weights
 *.pt
+*.pth
 *.ckpt
 *.bin
+
+# EEG raw data
+*.cnt
+*.edf
+*.set
+*.fif
+*.bdf
+
+# python cache
+__pycache__/
+*.pyc
