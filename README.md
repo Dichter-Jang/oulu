@@ -26,6 +26,7 @@ MotionLCM folder contains the code from: https://github.com/Dai-Wenxun/MotionLCM
 notebooks\03_motionlcm_eeg:
 1. notebooks\03_motionlcm_eeg\MotionLCM_demo.ipynb: Reproduction of the official MotionLCM demo script, demonstrating controllable human motion generation and verifying the baseline functionality of the model.
 2. notebooks\03_motionlcm_eeg\MotionLCM_EEG.ipynb: An experimental notebook exploring the integration of EEG signals with MotionLCM, aiming to investigate the feasibility of conditioning motion generation on neural signals.
+3. notebooks\03_motionlcm_eeg\MotionLCM_EEG_Control.ipynb: Builds on the previous MotionLCM_EEG setup by adding an explicit action latent layer for more stable and structured EEG-conditioned motion control.
 
 ### Note:
 1. Due to the large size of the datasets and pretrained model weights, they are not included in this repository.
